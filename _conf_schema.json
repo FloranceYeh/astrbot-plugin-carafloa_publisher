@@ -1,0 +1,22 @@
+{
+  "github_token": {
+    "description": "GitHub Fine-grained Token",
+    "type": "string",
+    "default": "",
+    "secret": true,
+    "obvious_hint": true,
+    "hint": "只授予内容仓库 Contents: Read and write 权限。"
+  },
+  "github_repository": {
+    "description": "GitHub 内容仓库",
+    "type": "string",
+    "default": "FloranceYeh/CaraFloa-content",
+    "hint": "格式为 owner/repository，例如 FloranceYeh/CaraFloa-content。"
+  },
+  "github_branch": {
+    "description": "GitHub 分支",
+    "type": "string",
+    "default": "main",
+    "hint": "插件写入的内容仓库分支。"
+  }
+}

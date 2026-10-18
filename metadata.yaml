@@ -1,0 +1,6 @@
+name: carafloa_publisher
+display_name: CaraFloa 内容发布器
+desc: 将 AstrBot 消息附件、图片、本地文件或 URL 发布到 CaraFloa 内容仓库。
+version: v1.1.0
+author: FloranceYeh
+repo: https://github.com/FloranceYeh/astrbot-plugin-carafloa_publisher
